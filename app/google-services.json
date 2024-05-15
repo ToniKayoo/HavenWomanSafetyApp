@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1056376126579",
+    "firebase_url": "https://haven-9115c-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "haven-9115c",
+    "storage_bucket": "haven-9115c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056376126579:android:7f2c136c8419e3d7977e06",
+        "android_client_info": {
+          "package_name": "com.example.havenwomansafetyapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBekPi8FwuSqLZ3LS57cYoXGbeeUbsRSmM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

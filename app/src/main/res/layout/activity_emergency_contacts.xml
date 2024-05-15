@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+    <TextView
+        android:id="@+id/tvSMSSection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SMS Contacts"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etSMSName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvSMSSection"
+        android:hint="Enter name" />
+
+    <EditText
+        android:id="@+id/etSMSNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etSMSName"
+        android:hint="Enter number"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btnAddSMSContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etSMSNumber"
+        android:text="Add SMS Contact"
+        android:background="@color/slateblue" />
+
+    <ListView
+        android:id="@+id/listViewSMSContacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnAddSMSContact"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnSendSMS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/listViewSMSContacts"
+        android:text="Send SMS"
+        android:background="@color/slateblue" />
+
+    <!-- Email Contact Section -->
+    <TextView
+        android:id="@+id/tvEmailSection"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnSendSMS"
+        android:layout_marginTop="16dp"
+        android:text="Email Contacts"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etEmailName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvEmailSection"
+        android:hint="Enter name" />
+
+    <EditText
+        android:id="@+id/etEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etEmailName"
+        android:hint="Enter email address"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/btnAddEmailContact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etEmailAddress"
+        android:text="Add Email Contact"
+        android:background="@color/slateblue" />
+
+    <ListView
+        android:id="@+id/listViewEmailContacts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnAddEmailContact"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/btnSendEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/listViewEmailContacts"
+        android:text="Send Email"
+        android:background="@color/slateblue" />
+
+</RelativeLayout>
